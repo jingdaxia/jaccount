@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: jaccount
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jaccount?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: admin
+  profiles:
+    active: dev
+server:
+  servlet:
+    context-path: /${spring.application.name}
+  port: 8090
+
+
