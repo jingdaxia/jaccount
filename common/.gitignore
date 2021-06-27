@@ -31,10 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-/.mvn/
-/mvnw.cmd
-/mvnw
-/src/test/java/com/jcy/account/CodeGenerator.java
-/common/.mvn/
-/common/mvnw
-/common/mvnw.cmd

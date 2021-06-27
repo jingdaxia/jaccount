@@ -13,5 +13,6 @@ server:
   servlet:
     context-path: /${spring.application.name}
   port: 8090
-
-
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
